@@ -1,48 +1,50 @@
 body
 {
     background-color: teal;
-    
 }
 
 .column
 {
-     display: inline;
-     padding: 20px;
+    display: inline;
+    padding: 20px;
 }
 
 #footer
 {
-    font-size: 15px;
-    font-family: sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: right;
-    padding: 9px;
     color: navy;
     font-style: italic;
+    padding-right: 9px;
 }
 
 h1, h3, h4
 {
     color: rgb(4, 69, 82);
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 img:hover
 {
-    border-radius: 30%;
-    border-color: lightgray;
+    border-radius: 140px;
+    border-color: rgb(142, 142, 142);
     border-style: solid;
-    box-shadow: black;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
 }
 
 img
 {
     width: 450px;
     height: 320px;
+    margin: auto;
 }
 
 #camera
 {
     height: 400px;
     width: 500px;
-    border-color: rgb(12, 77, 72);
+    border-color: navy;
 }
